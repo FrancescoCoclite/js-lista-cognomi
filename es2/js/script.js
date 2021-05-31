@@ -16,5 +16,13 @@ var listaCognomi = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 listaCognomi.push(cognomeCapitalized);
 console.log(listaCognomi);
 
-listaCognomi.sort()
+listaCognomi.sort();
 console.log(listaCognomi);
+
+for (var i=0; i<listaCognomi.length; i++){
+
+    if (cognomeCapitalized == listaCognomi[i]){
+        console.log(i+1);
+    } 
+}
+
