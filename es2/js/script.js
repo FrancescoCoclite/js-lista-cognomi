@@ -7,7 +7,6 @@
 
 var cognome = prompt('Inserisci il tuo Cognome');
 
-
 var cognomeCapitalized = cognome.charAt(0).toUpperCase() + cognome.slice(1).toLowerCase();
 console.log(cognomeCapitalized);
 
